@@ -1,0 +1,6 @@
+#Part 3 - Some basic tasks in Unix
+|Task|Commands|Screenshot|
+|--|--| --|
+|Navigate to home and create a folder called Lab1-gsi-62). Using the command line create the data structure as listed in the "Submission Requirements' section of this document|`cd ~`<br>`tree Lab1-gsi-62`|![](img/treecommand.png)|
+|Install the cowsay command, run it. Be sure to record how you installed the package via command line and then via the GUI|`sudo apt install cowsay`<br>`cowsay Hello Programmers`<br>`sudo synaptic`<br>`sudo Hello Programmers from GUI`|![](img/cowsaycommandTerminal.png) <br> ![](img/cowsaycommandGuiStep1.png) <br> ![](img/cowsaycommandGuiStep2.png) <br> ![](img/cowsaycommandGuiStep3.png) <br> ![](img/cowsaycommandGuiStep4.png)|
+|For vi(m) choose a theme and install it, and some configuration settings for vim at a miniumum you should turn on line numbers and syntax highlighting, also select theme of your choosing and install them|`colorscheme gruvbox`<br>`set background=dark`<br>`set number`<br>`syntax enable`<br>`set guifont=Courier\ New:h12`|![](img/updateViThemeStep1.png)<br>![](img/updateViThemeStep2.png)<br>![](img/updateViThemeStep3.png)<br>![](img/updateViThemeStep4.png)<br>![](img/updateViThemeStep5.png)|
